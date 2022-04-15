@@ -5,7 +5,7 @@ Simple tests showing a rounding error with printf when using **0** precision on 
 
 **Note 1**: As of VS2022 (17.1.4), this seems to happen on `debug` builds (both 32 and 64 bit). The 32-bit debug build's results are inconsistent, sometimes correctly rounding the values, sometimes not.
 
-**Note 2**: These tests seem to show the problem only in `debug` builds, however, <u>I am also seeing the issue in `release` builds on a different project</u>. I do not know what compiler flags or other settings are causing this behavior.
+**Note 2**: These tests seem to show the problem only in `debug` builds, however, **I am also seeing the issue in `release` builds on a different project**. I do not know what compiler flags or other settings are causing this behavior.
 
 ----
 
