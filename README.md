@@ -14,8 +14,8 @@ Simple tests showing a rounding error with printf when using **0** precision on 
 * **Visual Studio 2022 (17.1.4)**
 * **C++ Compiler**: 19.31.31106.2 (using command "cl" from developer command prompt)
 * **Project settings**: Mostly default "console" settings with minor changes to output file locations. See ".vcxproj" files for details.
-  * `Test1.vcxproj` changes: [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/Test1/Test1.vcxproj#L4-L12) and [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/Test1/Test1.vcxproj#L97-L105)
-  * `Test2.vcxproj` changes: [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/Test2/Test2.vcxproj#L4-L12) and [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/Test2/Test2.vcxproj#L97-L104)
+  * `Test1.vcxproj` changes: [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/blob/master/Test1/Test1.vcxproj#L4-L12) and [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/blob/master/Test1/Test1.vcxproj#L97-L105)
+  * `Test2.vcxproj` changes: [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/blob/master/Test2/Test2.vcxproj#L4-L12) and [here](https://github.com/brianferguson/printf-0-precision-rounding-error-tests/blob/master/Test2/Test2.vcxproj#L97-L104)
 
 ----
 
@@ -31,7 +31,7 @@ Simple tests showing a rounding error with printf when using **0** precision on 
 There are 2 test batch files. They do the following:
 * `Test1.bat` - This runs all 4 `Test1.exe` programs. `Test1` utilizes the "legacy_stdio_float_rounding.obj" file described [here](https://docs.microsoft.com/en-us/cpp/c-runtime-library/link-options?view=msvc-170). Results are correct.
 * `Test2.bat` - Runs all 4 `Test2.exe` programs. `Test2` does not use the legacy file from `Test1`. Debug builds are incorrect, with the 32-bit version giving inconsistent results.
-
+  * You can specify the number of iterations to run `Test2.exe` like this: `Test2.bat 5` which runs each `Text2.exe` 5 times each.
 
 ----
 
