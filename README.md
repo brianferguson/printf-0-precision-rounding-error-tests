@@ -1,6 +1,7 @@
 **Note**: This repository is now archived as the issue has been fixed. The problem is the Windows SDK, specifically version `10.0.19041.0`. Do not use this version if you are having this issue.
 
-**Please use version `10.0.20348` or later.**
+**Please use version `10.0.20348.0` or later.**
+[https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)
 
 ----
 
