@@ -1,3 +1,9 @@
+**Note**: This repository is now archived as the issue has been fixed. The problem is the Windows SDK, specifically version `10.0.19041.0`. Do not use this version if you are having this issue.
+
+**Please use version `10.0.20348` or later.**
+
+----
+
 printf-0-precision-rounding-error-tests
 ----
 
